@@ -1,7 +1,7 @@
 
 const age = prompt ("Wie alt sind sie?");
 
-let output = (age <= 18)
+let output = (age < 18)
    ?"Nein, sie dürfen nicht zur Wahl gehen"
    :"Ja sie dürfen zur Wahl gehen";
 
